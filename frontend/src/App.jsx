@@ -5,9 +5,9 @@ import theme from "./theme"
 import "./App.css"
 
 // --- Config ---
-// const API = "http://localhost:5000/api"
+const API = "http://localhost:5000/api"
 // theme.js or config file
-const API = "https://abcd1234.ngrok.io";
+// const API = "https://abcd1234.ngrok.io";
 
 const LABEL_OPTIONS = ["High", "Bug", "Feature", "Enhancement", "Demo"]
 
@@ -147,7 +147,7 @@ export default function App() {
           background: theme.colors.accent, color: theme.colors.white,
           border: "none", padding: `${theme.spacing.sm} ${theme.spacing.md}`,
           borderRadius: theme.radius.sm
-        }} onClick={() => setCreatingBoard(true)}>+ New Board</button>
+        }} onClick={() => setCreatingBoard(true)}>New Board</button>
         <input placeholder="Search tasks…" value={search} onChange={(e) => setSearch(e.target.value)}
           style={{
             flex: 1, minWidth: 240, padding: theme.spacing.md, borderRadius: theme.radius.md,
@@ -256,7 +256,7 @@ export default function App() {
                             marginTop: theme.spacing.md, width: "100%",
                             background: theme.colors.primary, color: theme.colors.white,
                             border: "none", padding: theme.spacing.md, borderRadius: theme.radius.sm
-                          }}>+ Add Task</button>
+                          }}>Add Task</button>
                       </div>
                     </div>
                   )}

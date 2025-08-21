@@ -22,17 +22,7 @@
         {
           "id": 4,
           "name": "Urgent",
-          "cards": [
-            {
-              "id": 101,
-              "title": "First task",
-              "labels": [
-                "Demo"
-              ],
-              "due_date": "2025-08-18",
-              "description": "Sample description"
-            }
-          ]
+          "cards": []
         }
       ]
     },
