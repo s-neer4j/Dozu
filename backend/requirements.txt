@@ -1,0 +1,6 @@
+flask
+flask-cors
+flask-sqlalchemy
+apscheduler
+gunicorn
+python-dateutil

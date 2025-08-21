@@ -1,0 +1,112 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "name": "Dozu Demo Board",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Backlog",
+          "cards": []
+        },
+        {
+          "id": 2,
+          "name": "Doing",
+          "cards": []
+        },
+        {
+          "id": 3,
+          "name": "Done",
+          "cards": []
+        },
+        {
+          "id": 4,
+          "name": "Urgent",
+          "cards": [
+            {
+              "id": 101,
+              "title": "First task",
+              "labels": [
+                "Demo"
+              ],
+              "due_date": "2025-08-18",
+              "description": "Sample description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Today",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Backlog",
+          "cards": []
+        },
+        {
+          "id": 2,
+          "name": "Doing",
+          "cards": []
+        },
+        {
+          "id": 3,
+          "name": "Done",
+          "cards": []
+        },
+        {
+          "id": 4,
+          "name": "Urgent",
+          "cards": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "linkediin",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Backlog",
+          "cards": []
+        },
+        {
+          "id": 2,
+          "name": "Doing",
+          "cards": [
+            {
+              "id": 103,
+              "title": "Testing",
+              "labels": [
+                "Enhancement"
+              ],
+              "due_date": "2025-08-21",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Done",
+          "cards": []
+        },
+        {
+          "id": 4,
+          "name": "Urgent",
+          "cards": [
+            {
+              "id": 102,
+              "title": "web creation",
+              "labels": [
+                "High"
+              ],
+              "due_date": "2025-08-20",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
